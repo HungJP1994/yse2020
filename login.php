@@ -20,8 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		}else{
 			$error = "ユーザー名かパスワードが間違っています";
 		}
-		$_name = test_input($name);
-		$_password = test_input($password);
 	} else {
 		$error = "名前とパスワードを入力してください";
 	}
